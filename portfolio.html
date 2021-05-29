@@ -5,88 +5,102 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:ital,wght@0,500;0,700;0,900;1,400&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
+        rel="stylesheet">    
     <link rel="stylesheet" href="./css/style.css">
 </head>
     <body>
-        <header class="head page-head">            
-            <nav>
-                <a href="./index.html" class="logo"><span class="web">Web</span>Studio</a>
+        <header class="header head-page">  
+            <div class="container">
+            <nav class="nav">
                 <ul class="site-nav list">
-                    <li><a href="./index.html" class="nav-link">Студия</a></li>
-                    <li><a href="./portfolio.html" class="nav-link  active">Портфолио</a></li>
-                    <li><a href="#" class="nav-link">Контакты</a></li>
+                    <li class="item"><a href="./index.html" class="logo"><span class="web">Web</span>Studio</a></li>
+                    <li class="item"><a href="./index.html" class="nav-link">Студия</a></li>
+                    <li class="item"><a href="./portfolio.html" class="nav-link  active">Портфолио</a></li>
+                    <li class="item"><a href="#" class="nav-link">Контакты</a></li>
+                </ul>    
+                <ul class="contacts list">
+                    <li class="item"><a href="mailto:test@test.tu" class="mail">test@test.ru</a></li>
+                    <li class="item"><a href="tel:+380500000000" class="tel">+380500000000</a></li>
                 </ul>
             </nav>
-                <ul class="contacts list">
-                    <li><a href="mailto:test@test.tu" class="mail">test@test.ru</a></li>
-                    <li><a href="tel:+380500000000" class="tel">+380500000000</a></li>
-                </ul>
+            </div>
         </header>
-        <main>  
+        <main> 
+        <div class="container">
             <section class="section">
-                <ul class="list">
-                    <li><button type="button" class="butt-filter">Все</button></li>
-                    <li><button type="button" class="butt-filter">Веб-сайты</button></li>
-                    <li><button type="button" class="butt-filter">Приложения</button></li>
-                    <li><button type="button" class="butt-filter">Дизайн</button></li>
-                    <li><button type="button" class="butt-filter">Маркетинг</button></li>
+                <div class="btn">
+                <ul class="list menu">
+                    <li class="item"><button type="button" class="butt-filter">Все</button></li>
+                    <li class="item"><button type="button" class="butt-filter">Веб-сайты</button></li>
+                    <li class="item"><button type="button" class="butt-filter">Приложения</button></li>
+                    <li class="item"><button type="button" class="butt-filter">Дизайн</button></li>
+                    <li class="item"><button type="button" class="butt-filter">Маркетинг</button></li>
                 </ul>
+                </div>
                 <ul class="work  list">
-                    <li>
+                    <li class="item">
                         <img src="./images/techno.jpg" alt="imageone" width="370">
                         <h2 class="title">Технокряк</h2>
                         <p class="text">Веб-сайт</p>
                     </li>
-                    <li>
+                    <li class="item">
                         <img src="./images/goldenstar.jpg" alt="imageone" width="370">
                         <h2 class="title">Постер New Orlean vs Golden Star</h2>
                         <p class="text">Дизайн</P>
                    </li>
-                    <li>
+                    <li class="item">
                         <img src="./images/seafood.jpg" alt="imageone" width="370">
                         <h2 class="title">Ресторан Seafood</h2>
                         <p class="text">Приложение</P>
                     </li>
-                    <li>
+                    <li class="item">
                         <img src="./images/prime.jpg" alt="imageone" width="370">
                         <h2 class="title">Проект Prime</h2>
                         <p class="text">Маркетинг</P>
                     </li>
-                    <li>
+                    <li class="item">
                         <img src="./images/boxes.jpg" alt="imageone" width="370">
                         <h2 class="title">Проект Boxes</h2>
                         <p class="text">Приложение</P>
                     </li>
-                    <li>
+                    <li class="item">
                         <img src="./images/inspiration.jpg" alt="imageone" width="370">
+                        <h2 class="title">Inspiration has no Borders</h2>
+                        <p class="text">Вэб сайт</P>
+                    </li>
+                    <li class="item">
+                        <img src="./images/limited.jpg" alt="imageone" width="370">
                         <h2 class="title">Издание Limited Edition</h2>
                         <p class="text">Дизайн</P>
                     </li>
-                    <li>
+                    <li class="item">
                         <img src="./images/lab.jpg" alt="imageone" width="370">
                         <h2 class="title">Проект LAB</h2>
                         <p class="text">Маркетинг</P>
                     </li>
-                    <li>
+                    <li class="item">
                         <img src="./images/business.jpg" alt="imageone" width="370">
                         <h2 class="title">Growing Business</h2>
                         <p class="text">Приложение</P>
                     </li>
                 </ul>
-            </section>           
+            </section> 
+        </div>
         </main>
-        <footer class="foot">          
-                <a href="./index.html" class="logoFoot"><span class="web">Web</span>Studio</a>           
-                <address class="address">г. Киев, пр-т Леси Украинки, 26</address>           
+        <footer class="footer"> 
+            <div class="container">
+                <a href="./index.html" class="logoFooter"><span class="web">Web</span>Studio</a>           
+                           
                 <ul class="contactsFoot list">
+                    <li><address class="address">г. Киев, пр-т Леси Украинки, 26</address></li>
                     <li><a href="mailto:test@test.tu" class="mail">test@test.ru</a></li>
                     <li><a href="tel:+380500000000" class="tel">+380500000000</a></li>
                 </ul>
+            </div>
         </footer>
     </body>
 </html>
