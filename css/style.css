@@ -165,8 +165,7 @@ ul {
   justify-content: space-between;
 }
 .workList > .item {
-  /* border: 1px solid #eeeeee; */
-  margin-bottom: 0;
+  margin-bottom: 30px;
 }
 .workList .tilte {
   margin-top: 20px;
