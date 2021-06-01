@@ -18,13 +18,14 @@ body {
   padding: 0 15px 0 15px;
   width: 1200px;
 }
-.img {
+img {
   display: block;
   max-width: 100%;
 }
 .header {
   padding-top: 24px;
   padding-bottom: 24px;
+  background-image: url(./images/logo.svg);
 }
 .header a {
   color: inherit;
